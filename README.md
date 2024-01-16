@@ -3,6 +3,7 @@
 <h4> Documentos auxiliares </h4>
 
 <li> <a href="Roteiro-aula%20pratica.pdf"> Roteiro da aula Prática </a> </li>
+<li> <a href="main.pdf" target="_blank"> Relatório Final </a> </li>
 
 
 <h5> Softwares usuais: </h5><p>
