@@ -2,26 +2,21 @@
 \section{Introdução}
 
 
-
-
 \noindent \begin{minipage}[c]{0.6\textwidth}
-  \vspace {1cm}
-  \begin{description}
-    \item [Banana] Exemplo de mini página com figura e seus respectivos rotulos, para que sejam referenciados ao decorrer do texto.
-    \item [Maça] Veja que a Figura \ref{fig:place}, está reservando um espaço para adição de figuras, e o mesmo já esta referenciando seu autor e sua nomeclatura com o indice automatico.
-  \end{description}
+\par O uso de banco e dados teve seu inicio com o advento da computação, para o armazenar e gerenciar dados, com as necessidades aumentando diversos pesquisadores foram desenvolvendo e aprimorando uma marco importante segundo \cite{histdb:2024}, em meados de 1980 a IBM desenvolve a \textit{Structured Query Language} (SQL), com o passar dos tempo o ícone que represenda um banco de dados é o da figura \ref{fig:icodb}. Seguindo os avanços e nesseciades tecnilogicas temos dois grandes tipos de banco de dados: os \textbf{Relacionais} e os \textbf{Não relacionais}, dos quais o objeto tema desta aula prática seráo \textbf{Não Relacionais}.
+
 
 \end{minipage}
 \begin{minipage}[c]{0.4\textwidth}
-  \captionof{figure}{Placeholder.}
-  \includegraphics[width=\textwidth]{figure/placeholder.jpg}
-  \label{fig:place}
+  \captionof{figure}{ícone de banco de dados}
+  \includegraphics[width=\textwidth]{figure/pngegg.png}
+  \label{fig:icodb}
   {\fontsize{10pt}{\baselineskip}\selectfont
-    Fonte: \citeonline{linux:2023}}
+    Fonte: \citeonline{DB:2024}}
 \end{minipage}
 
 
-\section{Desenvolvimento}
+\section{Métodos}
 
 \begin{algorithm}[H]
   \SetAlgoLined %APAGAR
@@ -43,22 +38,17 @@
    Fonte: O autor (2022)}
 
 \end{algorithm}
-\subsection{Método}
-\lipsum[2-2]
-
-
-\subsection{Resultados}
-\lipsum[2-2]
 
 
 
 
-\section{Código externo no main.c}
+
+\section{Resultados}
 
 \lstinputlisting[language=c, caption={código externo}, label={cod:externo}, captionpos=t]{main.c} %Busca os codigos na pasta /cod
 
 
-\section{Sub Figuras}
+\subsection{subfiguras}
 
 \begin{figure}[H] %Figuras da aula pratica 1.1
   \center
@@ -68,7 +58,7 @@
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Seção que será apagada}
+
 
 Para referenciar utilize \cite{ninguem2022curioso}. Também pode ser citado integrada ao texto, de acordo com \citeonline{alguem2022nada}.
 
@@ -77,7 +67,7 @@ Para inserir imagens adicione a figura no diretório \textit{/figure}
 
 
 
-\section{Sub itens}
+
 
 \begin{enumerate}[label=\Roman{*}, ref=(\roman{*})]
   \item fsfsdf
