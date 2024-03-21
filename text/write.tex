@@ -36,7 +36,7 @@
 
 \section{Resultados}
 \subsection{Primeira atividade}\label{1atividade}
-\par Para a primeira atividade é proposto a criação de um banco de dados no \textit{softwarwe} MongoDB Compass entitulado de \textbf{lojadb}, esta banco de dados será utilizado em um contexto de uma loja o qual deverá cadastrar documentos referentes a vendas efetuadas pela referida loja, e subdivide-se em duas etapas, a criação do banco de dados conforme tabela \ref{tab:banco}, e inserção de dados, no caso, endereço dos clientes conforme tabela \ref{tab:end}
+\par Para a primeira atividade é proposto a criação de um banco de dados no \textit{softwarwe} MongoDB Compass entitulado de \textbf{lojadb}, esta banco de dados será utilizado em um contexto de uma loja o qual deverá cadastrar documentos referentes a vendas efetuadas pela referida loja, e subdivide-se em duas etapas, a criação do banco de dados conforme tabela \ref{tab:banco}, e inserção de dados, no caso, endereço dos clientes conforme tabela \ref{tab:end} e produtos adiqiridos pelos cliente conforme listagem \ref{tab:com}.
 
 \begin{table}[H]
 \center
@@ -60,6 +60,10 @@
   {\fontsize{10pt}{\baselineskip}\selectfont
     Fonte: \citeonline{aula:2024}}
 \end{table}
+
+\par Para a implementação da tabela \ref{tab:banco}, foi confecionado o código \ref{cod:banco}.
+
+
 \begin{table}[H]
   \caption{Endereços a serem adicionados para os clientes.}
   \center
@@ -81,6 +85,9 @@
   {\fontsize{10pt}{\baselineskip}\selectfont
     Fonte: \citeonline{aula:2024}}
 \end{table}
+
+\par Para a inserçao dos dados da tebela \ref{tab:end}, foi confecionado a listagem \ref{cod:end}.
+
 \par Para concluir esta etapa e utilizar varias formas do MongoDB, sugere a inserção de mais dados como demonstrado na tabela \ref{tab:com}, inserindo os produtos adqueridos pelos clientes, como: Nome do equipamento, preço e quantidade.
 
 \begin{table}[H]
@@ -102,6 +109,14 @@
           & \multicolumn{1}{l|}{Preço: R\$: 2,00} \\
           & \multicolumn{1}{l|}{Quantidade: 2} \\
       \hline
+           &  \multicolumn{1}{l|}{Nome do Produto: Tablet} \\
+          & \multicolumn{1}{l|}{Preço: R\$: 2.500,00}  \\
+          & \multicolumn{1}{l|}{Quantidade: 1 } \\
+        Maria  & \\
+          & \multicolumn{1}{l|}{Nome do Produto: Capa para tablet} \\
+          & \multicolumn{1}{l|}{Preço: R\$: 50,00} \\
+          & \multicolumn{1}{l|}{Quantidade: 1} \\
+      \hline
 
   \end{tabular}
   \label{tab:com}
@@ -112,17 +127,24 @@
     Fonte: \citeonline{aula:2024}}
 \end{table}
 
+\par Para a realização desta atividades disponibilizo o \textit{scripty} \ref{cod:com} da tabela \ref{tab:com}.
+
+
+
+
 \subsection{Segunda Atividade}\label{2atividae}
 
 %\lstinputlisting[language=c, caption={código externo}, label={cod:externo}, captionpos=t]{main.c} %Busca os codigos na pasta /cod
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}[H] %Figuras da aula pratica 1.1
+%  \center
+%  \caption{Resultado da atividade prática 1.2,
+%  \subfigure[ Algoritmo.\label{fig:pri2}]{\includegraphics[scale=0.4]{figure/placeholder.jpg}}
+%  \subfigure[Comportamento.\label{fig:seg2}]{\includegraphics[scale=.4]{figure/placeholder.jpg}}
 
-\begin{figure}[H] %Figuras da aula pratica 1.1
-  \center
-  \subfigure[ Algoritmo.\label{fig:pri2}]{\includegraphics[scale=0.4]{figure/placeholder.jpg}}
-  \subfigure[Comportamento.\label{fig:seg2}]{\includegraphics[scale=.4]{figure/placeholder.jpg}}
-  \caption{Resultado da atividade prática 1.2, \cite{alguem2022nada}}\label{fig:ap1_cod_vigual1}
-\end{figure}
+%{\fontsize{10pt}{\baselineskip}\selectfont  Fonte: \citeonline{aula:2024}}
+%\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
