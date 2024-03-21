@@ -36,6 +36,75 @@
 
 \section{Resultados}
 \subsection{Primeira atividade}\label{1atividade}
+\par Para a primeira atividade é proposto a criação de um banco de dados no \textit{softwarwe} MongoDB Compass entitulado de \textbf{lojadb}, esta banco de dados será utilizado em um contexto de uma loja o qual deverá cadastrar documentos referentes a vendas efetuadas pela referida loja, e subdivide-se em duas etapas, a criação do banco de dados conforme tabela \ref{tab:banco}, e inserção de dados, no caso, endereço dos clientes conforme tabela \ref{tab:end}
+
+\begin{table}[H]
+\center
+  \caption{Criação do banco de dados.}
+  \begin{tabular}{ | c | c  | c | c |}
+      \hline
+      \textbf{Nome} & \textbf{Cliente VIP} & EMAIL & TELEFONE \\
+          & (1-SIM / 0-Não)  &  &    \\
+      \hline
+          João & 1 & joao@email.com & 9999-1111, 8888-1111 \\
+      \hline
+          Marcos & 0 &  & 9999-2222 \\
+      \hline
+          Maria & 1 &maria@email.com & 9999-3333, 8888-3333, 9988-3000 \\
+      \hline
+  \end{tabular}
+  \label{tab:banco}
+  \flushleft % Alinha a esquerda a referencia
+  %\raggedleft
+
+  {\fontsize{10pt}{\baselineskip}\selectfont
+    Fonte: \citeonline{aula:2024}}
+\end{table}
+\begin{table}[H]
+  \caption{Endereços a serem adicionados para os clientes.}
+  \center
+  \begin{tabular}{ | c | c |}
+      \hline
+      \textbf{Nome} & \textbf{Endereço} \\
+      \hline
+          João & Rua Um, 1000, Apto 1 Bloco 1. São Paulo/SP \\
+      \hline
+          Marcos & Rua Dois, 4000. Campinas/SP \\
+      \hline
+          Maria & Rua Três, 3000. Londrina/PR \\
+      \hline
+  \end{tabular}
+  \label{tab:end}
+  \flushleft % Alinha a esquerda a referencia
+  %\raggedleft
+
+  {\fontsize{10pt}{\baselineskip}\selectfont
+    Fonte: \citeonline{aula:2024}}
+\end{table}
+\par Para concluir esta etapa e utilizar varias formas do MongoDB, sugere a inserção de mais dados como demonstrado na tabela \ref{tab:com}, inserindo os produtos adqueridos pelos clientes, como: Nome do equipamento, preço e quantidade.
+
+\begin{table}[H]
+  \caption{Produtos adqueridos pelos clientes}
+  \center
+  \begin{tabular}{ | c | c |}
+      \hline
+      \textbf{Nome} & \textbf{Compras} \\
+      \hline
+          João & Nome do Produto: notebook \\
+          & Preço: $$R\$:5.000,00 $$ \\
+      \hline
+          Marcos & Rua Dois, 4000. Campinas/SP \\
+      \hline
+          Maria & Rua Três, 3000. Londrina/PR \\
+      \hline
+  \end{tabular}
+  \label{tab:com}
+  \flushleft % Alinha a esquerda a referencia
+  %\raggedleft
+
+  {\fontsize{10pt}{\baselineskip}\selectfont
+    Fonte: \citeonline{aula:2024}}
+\end{table}
 
 \subsection{Segunda Atividade}\label{2atividae}
 
